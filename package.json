@@ -1,0 +1,58 @@
+{
+    "name": "SUMMER-NFT",
+    "version": "1.0.0",
+    "description": "Chainlink hackathon project",
+    "author": "RMX999",
+    "source": "pages/index.tsx",
+    "engines": {
+        "node": ">=14"
+    },
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@3rdweb/sdk": "^1.42.1",
+        "@nextui-org/react": "^1.0.0-beta.7",
+        "@thirdweb-dev/react": "^2.3.11",
+        "@thirdweb-dev/sdk": "^2.2.18",
+        "@transak/transak-sdk": "^1.0.31",
+        "@web3auth/base": "^0.7.0",
+        "@web3auth/solana-provider": "^1.0.0",
+        "@web3auth/web3auth": "1.0.0",
+        "antd": "^4.20.6",
+        "daisyui": "^2.15.1",
+        "ethers": "^5.6.7",
+        "moralis": "^1.7.0",
+        "next": "^12.1.6",
+        "react": "17.0.2",
+        "react-blockies": "^1.4.1",
+        "react-dom": "17.0.2",
+        "react-moralis": "^1.3.5",
+        "tw-elements": "^1.0.0-alpha12",
+        "web3": "^1.7.3"
+    },
+    "devDependencies": {
+        "@types/node": "17.0.4",
+        "@types/react": "^17.0.38",
+        "autoprefixer": "^10.4.0",
+        "eslint": "8.5.0",
+        "eslint-config-next": "12.0.7",
+        "postcss": "^8.4.5",
+        "tailwindcss": "^3.0.7",
+        "typescript": "4.5.4"
+    },
+    "bugs": {
+        "url": "https://github.com/Cyphen12/tailwind-typescript-starter/issues"
+    },
+    "homepage": "https://github.com/Cyphen12/tailwind-typescript-starter#readme",
+    "main": "next.config.js",
+    "keywords": [
+        "nextjs",
+        "tailwindcss",
+        "typescript",
+        "starter"
+    ]
+}
